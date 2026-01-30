@@ -1,0 +1,9 @@
+html{
+    --col-l: #0F2854;
+    --col-ml: #1C4D8D;
+    --col-m: #4988C4;
+    --col-s: #BDE8F5;
+    --col-back: #242424;
+    --col-text: rgba(255, 255, 255, 0.87);
+    --col-text-tran: rgba(255, 255, 255, 0.3);
+}
