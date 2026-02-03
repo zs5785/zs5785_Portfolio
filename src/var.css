@@ -6,4 +6,5 @@ html{
     --col-back: #242424;
     --col-text: rgba(255, 255, 255, 0.87);
     --col-text-tran: rgba(255, 255, 255, 0.3);
+    --col-button: #0078e7;
 }

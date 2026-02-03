@@ -12,7 +12,7 @@
             "UI Designer",
             "Grahpics Programmer",
             "Level Designer",
-            "3D Scene Modeler",
+            "3D Environment Artist",
             "Project Manager"
         ],
         "features": [
@@ -150,7 +150,7 @@
     },
     {
         "name": "3D Game Engine",
-        "group": "C++",
+        "group": "Software",
         "category": "Game Engine",
         "framework": "OpenGL",
         "projectType": "Solo Project",
@@ -189,7 +189,7 @@
     },
     {
         "name": "Image Loader",
-        "group": "C++",
+        "group": "Software",
         "category": "Image Decoder",
         "framework": "C++",
         "projectType": "Solo Project",

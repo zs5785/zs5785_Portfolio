@@ -17,8 +17,8 @@ function ImageGallery({videos, images, name}){
                 {
                     videos.map((ele, i)=>{
                         return (
-                            <div className="vid-container">
-                                <iframe key={nanoid()} hidden={index !== i} className="yt-video" src={ele} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div className="vid-container" key={nanoid()}>
+                                <iframe hidden={index !== i} className="yt-video" src={ele} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                             </div>
                         );
                     })
@@ -39,7 +39,7 @@ function ImageGallery({videos, images, name}){
                     {
                         [...Array(maxLength).keys()].map((ele, n)=>{
                             return (
-                                <div className={"index-btn" + (index === n ? " index-btn-active" : "")} onClick={()=>setIndex(n)}></div>
+                                <div key={nanoid()} className={"index-btn" + (index === n ? " index-btn-active" : "")} onClick={()=>setIndex(n)}></div>
                             );
                         })
                     }

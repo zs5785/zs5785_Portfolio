@@ -18,7 +18,7 @@ function App() {
 
       <main className='content-wrapper'>
         <Routes>
-          <Route path='/' element={<Home list={list} />} />
+          <Route path='/' element={<Home list={list} groups={groups} />} />
           <Route path='/view/:id' element={<View list={list} />} />
           <Route path='/about' Component={About} />
         </Routes>
