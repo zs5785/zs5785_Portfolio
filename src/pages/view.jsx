@@ -10,7 +10,7 @@ function View({list}){
     const navigate = useNavigate();
     const { id } = useParams();
     const index = Number.parseInt(id);
-    const {name, category, framework, projectType, duration, roles, features, desc, link, repo, folder, videos, imageCount} = list.at(index);
+    const {name, inprogress, category, framework, projectType, duration, roles, features, desc, link, repo, folder, videos, imageCount} = list.at(index);
 
     const [images, setImages] = useState([]);
 
@@ -30,7 +30,7 @@ function View({list}){
 
     return (
         <div>
-            <h2>{name}</h2>
+            <h2>{name}{inprogress&&<Bubble className="inprogress">Inprogress</Bubble>}</h2>
             <ImageGallery key={nanoid()} videos={videos} images={images} name={name}/>
             <div className="p-details">
                 <div className="overview">
@@ -68,7 +68,10 @@ function View({list}){
                         );
                     })}</div>
                 </div>
-                <div className="description" ref={descElement}></div>
+                <div className="description">
+                    <h2 className="description-header">About</h2>
+                    <div ref={descElement}></div>
+                </div>
             </div>
         </div>
     );

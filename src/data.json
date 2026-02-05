@@ -1,6 +1,45 @@
 [
     {
+        "name": "Gold Rush",
+        "inprogress": true,
+        "group": "Game",
+        "category": "FPS",
+        "framework": "Unreal",
+        "projectType": "Solo Project",
+        "duration": "Jan 2024 - ",
+        "roles": [
+            "Programmer",
+            "Game Designer",
+            "UI Designer",
+            "3D Animator",
+            "Project Manager"
+        ],
+        "features": [
+            "4 Player Coop",
+            "15 Guns",
+            "Modular Modification",
+            "22 Gun Modifications",
+            "28 Enemies",
+            "Behaviour Tree AI",
+            "Movment System",
+            "Weapon Upgrade",
+            "Item Crafting",
+            "Item Trading",
+            "Player Gesture",
+            "Text Chat",
+            "Voice Chat"
+        ],
+        "desc": 
+            "<p>Team up with three friends in a thrilling co-op shooter, where you must protect your gold bars from relentless enemy waves. Every defeated foe drops scrap, your key to crafting new weapons or upgrading your gear. After each intense round, choose from a selection of weapon modifications as your reward. The more scrap you gather, the greater your rewards become. Each weapon can be enhanced with up to four modifications.</p><p>Back at your base, a variety of machines await, ready to help you upgrade, duplicate, deconstruct, reconstruct, or trade your modifications using scrap.  Upgrading the modification to the max level will unlock its special ability. You can also infuse your weapons with gold, unlocking a special ability for each one.</p><p>You can communicate with your teammates by typing in text chat, using voice chat, or using gestures.</p>",
+        "link": "",
+        "repo": "",
+        "folder": "gr",
+        "videos": ["https://www.youtube.com/embed/JaGNZZjfEa8?si=ZEgdMacHdiWtNtEC"],
+        "imageCount": 5
+    },
+    {
         "name": "Eden8080",
+        "inprogress": false,
         "group": "Game",
         "category": "3D Top-Down RogueLike Shooter",
         "framework": "Unity",
@@ -42,6 +81,7 @@
     },
     {
         "name": "Shop of Creativity",
+        "inprogress": false,
         "group": "Game",
         "category": "3D Management Action RPG Simulation",
         "framework": "Unity",
@@ -88,6 +128,7 @@
     },
     {
         "name": "Mage Adventure",
+        "inprogress": false,
         "group": "Game",
         "category": "2D RogueLike",
         "framework": "Unity",
@@ -119,6 +160,7 @@
     },
     {
         "name": "Wizard and Dungeon",
+        "inprogress": false,
         "group": "Game",
         "category": "2D RogueLike",
         "framework": "Unity",
@@ -150,6 +192,7 @@
     },
     {
         "name": "3D Game Engine",
+        "inprogress": false,
         "group": "Software",
         "category": "Game Engine",
         "framework": "OpenGL",
@@ -189,6 +232,7 @@
     },
     {
         "name": "Image Loader",
+        "inprogress": false,
         "group": "Software",
         "category": "Image Decoder",
         "framework": "C++",

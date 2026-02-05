@@ -23,10 +23,6 @@ function App() {
           <Route path='/about' Component={About} />
         </Routes>
       </main>
-
-      <footer>
-        
-      </footer>
     </div>
   )
 }

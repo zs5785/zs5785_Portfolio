@@ -1,9 +1,9 @@
 
-function Bubble({ children }){
+function Bubble({ children , className}){
     return (
-        <div className="bubble">
+        <b className={"bubble " + (className ? className : "")}>
             {children}
-        </div>
+        </b>
     );
 }
 

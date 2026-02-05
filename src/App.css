@@ -56,6 +56,7 @@
   box-sizing: border-box;
   transition: transform 0.1s;
   text-decoration: none;
+  position: relative;
 }
 
 .project:visited{
@@ -171,7 +172,6 @@
   border-radius: 10px;
   background-color: var(--col-text);
   color: var(--col-back);
-  width: max-content;
   padding: 0 10px 0 10px;
 }
 
@@ -201,6 +201,24 @@
   grid-column: 1/-1;
 }
 
+.contact{
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: max-content;
+}
+
+.inprogress{
+  background-color: yellow;
+  margin-left: 1rem;
+}
+
+.project .inprogress{
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
 @media screen and (min-width: 48em) {
   .nav-bar{
     grid-template-columns: max-content 1fr max-content max-content;
@@ -218,5 +236,9 @@
 
   .overview .bubble-container{
     max-width: 296px;
+  }
+
+  .description-header{
+    margin-top: 0;
   }
 }

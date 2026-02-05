@@ -1,43 +1,24 @@
 import { nanoid } from "nanoid";
 import Bubble from "../components/bubble";
+import Filters from "../components/filter";
+import { useState } from "react";
 
-function About(){
-    const skills = [
-        "Unreal Engine",
-        "Blender",
-        "Game Design",
-        "Maya",
-        "Audacity",
-        "Photoshop",
-        "UX/UI Design",
-        "OpenGL",
-        "GLSL",
-        "ShaderLab",
-        "Game Testing",
-        "HTML",
-        "CSS",
-        "Figma",
-        "Game Balance",
-        "Github",
-        "3D Animation",
-        "VSCode",
-        "Visual Studio",
-        "MS Office",
-        "Unity",
-        "C++",
-        "C#",
-        "Java",
-        "Javascript",
-        "JQuery",
-        "React",
-        "SQL",
-        "MongoDB",
-        "ExpressJS",
-        "Frontend",
-        "Backend",
-        "Trello"
-    ];
+function BubbleList({label, list}){
+    return (
+        <div>
+            <h2>{label}</h2>
+            <div className="bubble-container">{list.map((ele)=>{
+                return (
+                    <Bubble key={nanoid()}>
+                        {ele}
+                    </Bubble>
+                );
+            })}</div>
+        </div>
+    );
+}
 
+function Overview(){
     return (
         <div>
             <h2>About Me</h2>
@@ -47,6 +28,7 @@ function About(){
             <ul>
                 <li>Hong Kong Institute of Vocational Education Higher Diploma in Game and Animation (2019-2021)</li>
                 <li>City University of Hong Kong BSc in Creative Media (2021-2023)</li>
+                <li>Langara College Diploma in Computer Studies (2024-2025)</li>
             </ul>
             <h2>Awards</h2>
             <ul>
@@ -54,15 +36,108 @@ function About(){
                     <a href="https://www.playfulmedia.hk/2023/" target="_blank">City University of Hong Kong SIG 2023 Outstanding Technology Application Award</a>
                 </li>
             </ul>
-            <h2>Skills</h2>
-            <div className="bubble-container">{skills.map((ele)=>{
-                return (
-                    <Bubble key={nanoid()}>
-                        {ele}
-                    </Bubble>
-                );
-            })}</div>
-            <h2>Contact</h2>
+        </div>
+    );
+}
+
+function Skills(){
+    const language = [
+        "C++",
+        "C#",
+        "Java",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "GLSL",
+        "ShaderLab",
+        "SQL"
+    ];
+    const software = [
+        "Unreal Engine",
+        "Unity",
+        "Blender",
+        "Maya",
+        "Audacity",
+        "Photoshop",
+        "Figma",
+        "Github",
+        "VSCode",
+        "Visual Studio",
+        "MS Office",
+        "Trello"
+    ];
+    const library = [
+        "JQuery",
+        "React"
+    ];
+    const api = [
+        "OpenGL"
+    ];
+    const roles = [
+        "Game Design",
+        "UX/UI Design",
+        "Game Testing",
+        "Game Balance",
+        "3D Animation",
+        "Frontend",
+        "Backend"
+    ];
+
+    return (
+        <div>
+            <BubbleList label="Roles" list={roles} />
+            <BubbleList label="Programming Languages" list={language} />
+            <BubbleList label="Softwares" list={software} />
+            <BubbleList label="Libraries" list={library} />
+            <BubbleList label="APIs" list={api} />
+        </div>
+    );
+}
+
+function Contact(){
+    return (
+        <table className="contact pure-table pure-table-horizontal">
+            <tbody>
+                <tr>
+                    <td>Email</td>
+                    <td>zssniper5785@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>+1(236)660-2478</td>
+                </tr>
+                <tr>
+                    <td>Whatsapp</td>
+                    <td>+1(236)660-2478</td>
+                </tr>
+                <tr>
+                    <td>Linkedin</td>
+                    <td><a href="https://linkedin.com/in/yu-hei-tong" target="_blank">linkedin.com/in/yu-hei-tong</a></td>
+                </tr>
+                <tr>
+                    <td>Github</td>
+                    <td><a href="https://github.com/zs5785" target="_blank">https://github.com/zs5785</a></td>
+                </tr>
+            </tbody>
+        </table>
+    );
+}
+
+function About(){
+
+    const tabs = ['Overview', 'Skills', 'Contact'];
+    const [tab, setTab] = useState(tabs[0]);
+
+    return (
+        <div>
+            <div>
+                <Filters list={tabs} select={tab} handleClick={(ele)=>setTab(ele)}/>
+            </div>
+
+            {tab === tabs[0] && <Overview />}
+            {tab === tabs[1] && <Skills />}
+            {tab === tabs[2] && <Contact />}
+            
         </div>
     );
 }
