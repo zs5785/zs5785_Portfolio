@@ -9,7 +9,7 @@ import About from './pages/about';
 import * as data from './data.json';
 
 function App() {
-  const list = data.default.map((ele, n)=>{return {...ele, index: n};});
+  const list = data.default.toReversed().map((ele, n)=>{return {...ele, index: n};});
   const groups = Array.from(new Set(list.map((ele)=>ele.group)));
 
   return (
@@ -28,3 +28,4 @@ function App() {
 }
 
 export default App
+

@@ -31,7 +31,9 @@ function Navbar({list, groups}){
 
     return (
         <div className="nav-bar pure-menu pure-menu-horizontal">
-            <Link to="/" className='pure-menu-heading pure-menu-link'>Home</Link>
+            <Link id='home-link' to="/" className='pure-menu-heading pure-menu-link'>
+                <img src='./icon.png' alt='Home'></img>
+            </Link>
             {
                 showMenu &&
                 <ul className='pure-menu-list'>

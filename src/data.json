@@ -1,267 +1,301 @@
 [
-    {
-        "name": "Gold Rush",
-        "inprogress": true,
-        "group": "Game",
-        "category": "FPS",
-        "framework": "Unreal",
-        "projectType": "Solo Project",
-        "duration": "Jan 2024 - ",
-        "roles": [
-            "Programmer",
-            "Game Designer",
-            "UI Designer",
-            "3D Animator",
-            "Project Manager"
-        ],
-        "features": [
-            "4 Player Coop",
-            "15 Guns",
-            "Modular Modification",
-            "22 Gun Modifications",
-            "28 Enemies",
-            "Behaviour Tree AI",
-            "Movment System",
-            "Weapon Upgrade",
-            "Item Crafting",
-            "Item Trading",
-            "Player Gesture",
-            "Text Chat",
-            "Voice Chat"
-        ],
-        "desc": 
-            "<p>Team up with three friends in a thrilling co-op shooter, where you must protect your gold bars from relentless enemy waves. Every defeated foe drops scrap, your key to crafting new weapons or upgrading your gear. After each intense round, choose from a selection of weapon modifications as your reward. The more scrap you gather, the greater your rewards become. Each weapon can be enhanced with up to four modifications.</p><p>Back at your base, a variety of machines await, ready to help you upgrade, duplicate, deconstruct, reconstruct, or trade your modifications using scrap.  Upgrading the modification to the max level will unlock its special ability. You can also infuse your weapons with gold, unlocking a special ability for each one.</p><p>You can communicate with your teammates by typing in text chat, using voice chat, or using gestures.</p>",
-        "link": "",
-        "repo": "",
-        "folder": "gr",
-        "videos": ["https://www.youtube.com/embed/JaGNZZjfEa8?si=ZEgdMacHdiWtNtEC"],
-        "imageCount": 5
-    },
-    {
-        "name": "Eden8080",
-        "inprogress": false,
-        "group": "Game",
-        "category": "3D Top-Down RogueLike Shooter",
-        "framework": "Unity",
-        "projectType": "Graduation Group Project",
-        "duration": "Sep 2022 - May 2023 (9 Months)",
-        "roles": [
-            "Programmer",
-            "Game Designer",
-            "UI Designer",
-            "Grahpics Programmer",
-            "Level Designer",
-            "3D Environment Artist",
-            "Project Manager"
-        ],
-        "features": [
-            "Wave Function Collapse Level Generation",
-            "Modular Gun",
-            "34 Weapon Parts",
-            "86 Weapon Upgrades",
-            "30 Player Upgrades",
-            "31 Unique Enemies and 7 Bosses",
-            "Clean and stylized UI",
-            "Status Effects",
-            "Special Rooms",
-            "Side Challenges",
-            "Prop Interactions",
-            "Shops",
-            "6 Unique Level Environments",
-            "Finite State Machine AI",
-            "Toon Shading"
-        ],
-        "desc": 
-            "<p>In this game, the player plays as a robot whose objective is to seek vengeance and eliminate anyone who stands in its way. You can carry up to four guns, which can be upgraded by adding various modifications to them. These guns are randomly generated with different weapon parts and projectiles, providing a unique experience for each one found. With 86 weapon modifications available, players can customize their guns to fit their playstyle.</p><p>With Wave Function Collapse Level Generation and over 40 unique enemies, including bosses, this game offers endless replayability through randomly generated levels and challenging foes.</p>",
-        "link": "",
-        "repo": "",
-        "folder": "Eden8080",
-        "videos": ["https://www.youtube.com/embed/3NVSdbwYnGg?si=eGMuzFHbl9Y8BQUo"],
-        "imageCount": 12
-    },
-    {
-        "name": "Shop of Creativity",
-        "inprogress": false,
-        "group": "Game",
-        "category": "3D Management Action RPG Simulation",
-        "framework": "Unity",
-        "projectType": "Graduation Group Project",
-        "duration": "Sep 2020 - May 2021 (9 Months)",
-        "roles": [
-            "Programmer",
-            "Game Designer",
-            "UI Designer",
-            "Grahpics Programmer",
-            "Level Designer",
-            "Project Manager"
-        ],
-        "features": [
-            "Procedural Level Generation",
-            "Spell Creation",
-            "Spell Chaining",
-            "6 Unique Spells",
-            "59 Unique Spell Modifications",
-            "Status Effects",
-            "Shop Management",
-            "Shop decoration",
-            "26 Furnitures",
-            "Item Crafting",
-            "Research Tree",
-            "Day Night Cycle",
-            "Time Simulation",
-            "3 Unique Dungeons",
-            "3 Unique sets of Enemy and Boss",
-            "Side Quests",
-            "NPC",
-            "Dialogue System",
-            "15 Unique Enemies and Bosses",
-            "Save & Load",
-            "Toon Shading"
-        ],
-        "desc": 
-            "<p>You play as a young wizard apprentice who dreams of becoming a Supreme Grand Master in wizardry. However, to take the exam, you need coins, which is why you decide to rent a shop to sell exotic items.</p><p>As a wizard, you can create spells and customize them using spell components. There are six types of spells, each with unique characteristics. Additionally, your spell can trigger the next spell if there's a trigger component on your spell.</p><p>Since you have rented the shop, it's important to note that you need to pay rent every week. Failure to do so will result in Game over. To assist you in selling items, you have the option to modify your shop by adding different types of furniture. Exotic items can be acquired by either venturing into a dungeon to find them or by crafting them yourself.</p>",
-        "link": "",
-        "repo": "",
-        "folder": "soc",
-        "videos": ["https://www.youtube.com/embed/wf8QI3l2Oe8?si=QCJSoUDM9ioE0AO"],
-        "imageCount": 7
-    },
-    {
-        "name": "Mage Adventure",
-        "inprogress": false,
-        "group": "Game",
-        "category": "2D RogueLike",
-        "framework": "Unity",
-        "projectType": "School Group Project",
-        "duration": "Oct 2022 - Dec 2022 (6 Weeks)",
-        "roles": [
-            "Programmer",
-            "Game Designer",
-            "UI Designer",
-            "Level Designer",
-            "Project Manager"
-        ],
-        "features": [
-            "Wave Function Collapse Level Generation",
-            "17 Unique Spells",
-            "Spell Chaining",
-            "Leveling System",
-            "Stat Upgrade",
-            "Spell Upgrade",
-            "2D A* Pathing Finding"
-        ],
-        "desc": 
-            "<p>In this game, you play the role of a mage who is tasked with defeating the Lich that resides within a dungeon. However, the Lich has summoned minions to protect the dungeon. Therefore, you must use your spells to overcome any enemies that you encounter.</p><p>As a mage, you possess a variety of spells that you can cast. These spells are unique and have different trigger events. For instance, some spells will trigger the next spell when you hit a wall, while others may trigger the next spell when you defeat an enemy. By chaining spells together through these triggers, you can create powerful and devastating combos that will help you defeat any enemies you face.</p><p>You can level up and gain experience by defeating enemies. Every five levels, you can learn or upgrade a spell. Additionally, with each level increase, you can improve your attributes such as health or power.</p><p>I used this project to test out the Wave Function Collapse Algorithm for Eden8080. Also, I used this project to implement the spell trigger chaining mechanic.</p>",
-        "link": "",
-        "repo": "",
-        "folder": "MA",
-        "videos": ["https://www.youtube.com/embed/e0ihf4KEjAU?si=KidNA1u18D2o15u9"],
-        "imageCount": 9
-    },
-    {
-        "name": "Wizard and Dungeon",
-        "inprogress": false,
-        "group": "Game",
-        "category": "2D RogueLike",
-        "framework": "Unity",
-        "projectType": "School Group Project",
-        "duration": "March 2020 - May 2020 (6 Weeks)",
-        "roles": [
-            "Programmer",
-            "Game Designer",
-            "UI Designer",
-            "Level Designer",
-            "Project Manager"
-        ],
-        "features": [
-            "Procedural Level Generation",
-            "Spell Creation",
-            "49 Unique Spell Modifiers",
-            "Status Effects",
-            "Spell Chaining",
-            "Item Shop",
-            "Character Upgrade"
-        ],
-        "desc": 
-            "<p>In this game, you play as a wizard who is stuck in a dungeon. Your task is to defeat an evil wizard who has trapped you. You can use your knowledge of magic to create unique spells to defeat the minions summoned by the evil wizard.</p><p>You can find or purchase spell components from item chests or shops. With spell components, you can create various spells. Every spell requires a transport component and a target component. The transport component determines the spell's type, such as projectile or ray. The target component determines how the spell will behave, such as targeting the mouse pointer or targeting enemies. Using the Triggering component, you can trigger the next spell on trigger events, such as on hit.</p><p>There are five levels, and each level has a boss. Defeating the boss opens a stairway to the next level and gives you three character upgrade options to choose from. You can choose one of the three options to permanently upgrade one aspect of your character.</p>",
-        "link": "",
-        "repo": "",
-        "folder": "wad",
-        "videos": ["https://www.youtube.com/embed/D7LMuHBSdAQ?si=wkzw69U6fkoBt-go"],
-        "imageCount": 5
-    },
-    {
-        "name": "3D Game Engine",
-        "inprogress": false,
-        "group": "Software",
-        "category": "Game Engine",
-        "framework": "OpenGL",
-        "projectType": "Solo Project",
-        "duration": "July 2021 - Sep 2021 (3 Months)",
-        "roles": [
-            "Programmer"
-        ],
-        "features": [
-            "3D Rendering",
-            "GLSL Shader",
-            "Partial and Full Transparency",
-            "Order Independent Transparency",
-            "Phong shading",
-            "Static Light",
-            "Dynamic Light",
-            "UI Rendering",
-            "UI Interaction",
-            "Resource Management",
-            "Shader Material",
-            "GLTF Model Loader",
-            "Signed Distance Field Text Rendering",
-            "Transform Tree",
-            "Quaternion Rotation",
-            "Component Based Entity",
-            "3D Animation",
-            "3D Morph",
-            "Skybox"
-        ],
-        "desc": 
-            "<p>The purpose of this project is to learn OpenGL and Game Engine development. With the help of LearnOpenGL, I have independently developed most of the features. The only external libraries I utilized are GLFW and GLAD for the basic building blocks of OpenGL, MikkTSpace for Tangent Space, and FreeType for Font Loading.</p><p>With this project, anyone can create a custom Game Engine by inheriting the Base Game Engine Class. The Game Engine works with entities, which can have additional component objects added to run additional functions such as movement.</p><p>I have utilized my ImageLoader for loading images. Additionally, I have developed a custom GLTF loader to load models, including animations and morphs. To play the loaded animations, you can use the animation Component.</p><p>This engine renders 3D models in Phong shading. This engine also implements Weighted Blended Order-Independent Transparency for both partial and full transparency rendering. For lighting, there are static lights such as directional lights, as well as dynamic lights like point lights and spot lights.</p><p>To demonstrate this project, I have created a demo that you can download and experiment with.</p>",
-        "link": "",
-        "repo": "",
-        "folder": "OpenGL",
-        "videos": ["https://www.youtube.com/embed/DdgE_1d9DYs?si=14pViJIVe-ueUTP_"],
-        "imageCount": 6
-    },
-    {
-        "name": "Image Loader",
-        "inprogress": false,
-        "group": "Software",
-        "category": "Image Decoder",
-        "framework": "C++",
-        "projectType": "Solo Project",
-        "duration": "May 2021 - July 2021 (3 Months)",
-        "roles": [
-            "Programmer"
-        ],
-        "features": [
-            "Dependency Free",
-            "Header Only",
-            "PNG Decode",
-            "PNG Filter",
-            "PNG Interlacing",
-            "zlib Decompression",
-            "Any PNG Color Types",
-            "PNG Transparency",
-            "JPG Decode",
-            "JPG Downsampling",
-            "BMP Decode",
-            "BMP Compression",
-            "QOI Decode"
-        ],
-        "desc": 
-            "<p>The reason why I made this Image Loader is to gain a better understanding of how image files work and to be use for loading images in my own 3D Game Engine. To achieve this, I've written this c++ header from scratch without relying on any external dependencies to decode PNG, JPG, BMP, and QOI images into a 2D array. For instance, I had to implement the zlib decoding for PNG's data, on my own.</p><p>By including the header in C++, this image loader can load PNG, JPEG, and BMP images by inputting the file path.</p><p>To demonstrate, I've created a demo program in Window. After execution, you can open any image by clicking file->open.</p>",
-        "link": "",
-        "repo": "",
-        "folder": "IM",
-        "videos": ["https://www.youtube.com/embed/oP2IqLwplXU?si=ow5hiCn5yxXBAKtI"],
-        "imageCount": 6
-    }
+  {
+    "name": "Image Loader",
+    "inprogress": false,
+    "group": "Software",
+    "category": "Image Decoder",
+    "framework": "C++",
+    "projectType": "Solo Project",
+    "duration": "May 2021 - July 2021 (3 Months)",
+    "roles": [
+      "Programmer"
+    ],
+    "features": [
+      "Dependency Free",
+      "Header Only",
+      "PNG Decode",
+      "PNG Filter",
+      "PNG Interlacing",
+      "zlib Decompression",
+      "Any PNG Color Types",
+      "PNG Transparency",
+      "JPG Decode",
+      "JPG Downsampling",
+      "BMP Decode",
+      "BMP Compression",
+      "QOI Decode"
+    ],
+    "desc": "<p>I created this Image Loader to gain a deeper understanding of how image files work and to utilize it for loading images in my own 3D Game Engine. To do this, I wrote this C++ header from scratch without relying on external dependencies to decode PNG, JPG, BMP, and QOI images into a 2D array. For example, I implemented the zlib decoding for PNG data myself.</p><p>By including the header in C++, this image loader can load most PNG, JPEG, and BMP images by inputting the file path.</p><p>To demonstrate, I created a demo program in Windows. After running it, you can open any image by clicking File->Open.</p>",
+    "link": "",
+    "repo": "",
+    "folder": "IM",
+    "videos": [
+      "https://www.youtube.com/embed/oP2IqLwplXU?si=ow5hiCn5yxXBAKtI"
+    ],
+    "imageCount": 6
+  },
+  {
+    "name": "3D Game Engine",
+    "inprogress": false,
+    "group": "Software",
+    "category": "Game Engine",
+    "framework": "OpenGL",
+    "projectType": "Solo Project",
+    "duration": "July 2021 - Sep 2021 (3 Months)",
+    "roles": [
+      "Programmer"
+    ],
+    "features": [
+      "3D Rendering",
+      "GLSL Shader",
+      "Partial and Full Transparency",
+      "Order Independent Transparency",
+      "Phong shading",
+      "Static Light",
+      "Dynamic Light",
+      "UI Rendering",
+      "UI Interaction",
+      "Resource Management",
+      "Shader Material",
+      "GLTF Model Loader",
+      "Signed Distance Field Text Rendering",
+      "Transform Tree",
+      "Quaternion Rotation",
+      "Component Based Entity",
+      "3D Animation",
+      "3D Morph",
+      "Skybox"
+    ],
+    "desc": "<p>The purpose of this project is to learn OpenGL and Game Engine development. With the help of LearnOpenGL, I have independently developed most of the features. The only external libraries I utilized are GLFW and GLAD for the basic building blocks of OpenGL, MikkTSpace for Tangent Space, and FreeType for Font Loading.</p><p>With this project, anyone can create a custom Game Engine by inheriting the Base Game Engine Class. The Game Engine works with entities, which can have additional component objects added to run additional functions such as movement.</p><p>I have utilized my ImageLoader for loading images. Additionally, I have developed a custom GLTF loader to load models, including animations and morphs. To play the loaded animations, you can use the animation Component.</p><p>This engine renders 3D models in Phong shading. This engine also implements Weighted Blended Order-Independent Transparency for both partial and full transparency rendering. For lighting, there are static lights such as directional lights, as well as dynamic lights like point lights and spot lights.</p><p>To demonstrate this project, I have created a demo that you can download and experiment with.</p>",
+    "link": "",
+    "repo": "",
+    "folder": "OpenGL",
+    "videos": [
+      "https://www.youtube.com/embed/DdgE_1d9DYs?si=14pViJIVe-ueUTP_"
+    ],
+    "imageCount": 6
+  },
+  {
+    "name": "Wizard and Dungeon",
+    "inprogress": false,
+    "group": "Game",
+    "category": "2D RogueLike",
+    "framework": "Unity",
+    "projectType": "School Group Project",
+    "duration": "March 2020 - May 2020 (6 Weeks)",
+    "roles": [
+      "Programmer",
+      "Game Designer",
+      "UI Designer",
+      "Level Designer",
+      "Project Manager"
+    ],
+    "features": [
+      "Procedural Level Generation",
+      "Spell Creation",
+      "49 Unique Spell Modifiers",
+      "Status Effects",
+      "Spell Chaining",
+      "Item Shop",
+      "Character Upgrade"
+    ],
+    "desc": "<p>In this game, you play as a wizard who is stuck in a dungeon. Your task is to defeat an evil wizard who has trapped you. You can use your knowledge of magic to create unique spells to defeat the minions summoned by the evil wizard.</p><p>You can find or purchase spell components from item chests or shops. With spell components, you can create various spells. Every spell requires a transport component and a target component. The transport component determines the spell's type, such as projectile or ray. The target component determines how the spell will behave, such as targeting the mouse pointer or targeting enemies. Using the Triggering component, you can trigger the next spell on trigger events, such as on hit.</p><p>There are five levels, and each level has a boss. Defeating the boss opens a stairway to the next level and gives you three character upgrade options to choose from. You can choose one of the three options to permanently upgrade one aspect of your character.</p>",
+    "link": "",
+    "repo": "",
+    "folder": "wad",
+    "videos": [
+      "https://www.youtube.com/embed/D7LMuHBSdAQ?si=wkzw69U6fkoBt-go"
+    ],
+    "imageCount": 5
+  },
+  {
+    "name": "Mage Adventure",
+    "inprogress": false,
+    "group": "Game",
+    "category": "2D RogueLike",
+    "framework": "Unity",
+    "projectType": "School Group Project",
+    "duration": "Oct 2022 - Dec 2022 (6 Weeks)",
+    "roles": [
+      "Programmer",
+      "Game Designer",
+      "UI Designer",
+      "Level Designer",
+      "Project Manager"
+    ],
+    "features": [
+      "Wave Function Collapse Level Generation",
+      "17 Unique Spells",
+      "Spell Chaining",
+      "Leveling System",
+      "Stat Upgrade",
+      "Spell Upgrade",
+      "2D A* Pathing Finding"
+    ],
+    "desc": "<p>In this game, you play the role of a mage who is tasked with defeating the Lich that resides within a dungeon. However, the Lich has summoned minions to protect the dungeon. Therefore, you must use your spells to overcome any enemies that you encounter.</p><p>As a mage, you possess a variety of spells that you can cast. These spells are unique and have different trigger events. For instance, some spells will trigger the next spell when you hit a wall, while others may trigger the next spell when you defeat an enemy. By chaining spells together through these triggers, you can create powerful and devastating combos that will help you defeat any enemies you face.</p><p>You can level up and gain experience by defeating enemies. Every five levels, you can learn or upgrade a spell. Additionally, with each level increase, you can improve your attributes such as health or power.</p><p>I used this project to test out the Wave Function Collapse Algorithm for Eden8080. Also, I used this project to implement the spell trigger chaining mechanic.</p>",
+    "link": "",
+    "repo": "",
+    "folder": "MA",
+    "videos": [
+      "https://www.youtube.com/embed/e0ihf4KEjAU?si=KidNA1u18D2o15u9"
+    ],
+    "imageCount": 9
+  },
+  {
+    "name": "Shop of Creativity",
+    "inprogress": false,
+    "group": "Game",
+    "category": "3D Management Action RPG Simulation",
+    "framework": "Unity",
+    "projectType": "Graduation Group Project",
+    "duration": "Sep 2020 - May 2021 (9 Months)",
+    "roles": [
+      "Programmer",
+      "Game Designer",
+      "UI Designer",
+      "Grahpics Programmer",
+      "Level Designer",
+      "Project Manager"
+    ],
+    "features": [
+      "Procedural Level Generation",
+      "Spell Creation",
+      "Spell Chaining",
+      "6 Unique Spells",
+      "59 Unique Spell Modifications",
+      "Status Effects",
+      "Shop Management",
+      "Shop decoration",
+      "26 Furnitures",
+      "Item Crafting",
+      "Research Tree",
+      "Day Night Cycle",
+      "Time Simulation",
+      "3 Unique Dungeons",
+      "3 Unique sets of Enemy and Boss",
+      "Side Quests",
+      "NPC",
+      "Dialogue System",
+      "15 Unique Enemies and Bosses",
+      "Save & Load",
+      "Toon Shading"
+    ],
+    "desc": "<p>You play as a young wizard apprentice who dreams of becoming a Supreme Grand Master in wizardry. However, to take the exam, you need coins, which is why you decide to rent a shop to sell exotic items.</p><p>As a wizard, you can create spells and customize them using spell components. There are six types of spells, each with unique characteristics. Additionally, your spell can trigger the next spell if there's a trigger component on your spell.</p><p>Since you have rented the shop, it's important to note that you need to pay rent every week. Failure to do so will result in Game over. To assist you in selling items, you have the option to modify your shop by adding different types of furniture. Exotic items can be acquired by either venturing into a dungeon to find them or by crafting them yourself.</p>",
+    "link": "",
+    "repo": "",
+    "folder": "soc",
+    "videos": [
+      "https://www.youtube.com/embed/wf8QI3l2Oe8?si=QCJSoUDM9ioE0AO"
+    ],
+    "imageCount": 7
+  },
+  {
+    "name": "Eden8080",
+    "inprogress": false,
+    "group": "Game",
+    "category": "3D Top-Down RogueLike Shooter",
+    "framework": "Unity",
+    "projectType": "Graduation Group Project",
+    "duration": "Sep 2022 - May 2023 (9 Months)",
+    "roles": [
+      "Programmer",
+      "Game Designer",
+      "UI Designer",
+      "Grahpics Programmer",
+      "Level Designer",
+      "3D Environment Artist",
+      "Project Manager"
+    ],
+    "features": [
+      "Wave Function Collapse Level Generation",
+      "Modular Gun",
+      "34 Weapon Parts",
+      "86 Weapon Upgrades",
+      "30 Player Upgrades",
+      "31 Unique Enemies and 7 Bosses",
+      "Clean and stylized UI",
+      "Status Effects",
+      "Special Rooms",
+      "Side Challenges",
+      "Prop Interactions",
+      "Shops",
+      "6 Unique Level Environments",
+      "Finite State Machine AI",
+      "Toon Shading"
+    ],
+    "desc": "<p>In this game, the player plays as a robot whose objective is to seek vengeance and eliminate anyone who stands in its way. You can carry up to four guns, which can be upgraded by adding various modifications to them. These guns are randomly generated with different weapon parts and projectiles, providing a unique experience for each one found. With 86 weapon modifications available, players can customize their guns to fit their playstyle.</p><p>With Wave Function Collapse Level Generation and over 40 unique enemies, including bosses, this game offers endless replayability through randomly generated levels and challenging foes.</p>",
+    "link": "",
+    "repo": "",
+    "folder": "Eden8080",
+    "videos": [
+      "https://www.youtube.com/embed/3NVSdbwYnGg?si=eGMuzFHbl9Y8BQUo"
+    ],
+    "imageCount": 12
+  },
+  {
+    "name": "Web 3D Renderer",
+    "inprogress": false,
+    "group": "Software",
+    "category": "3D Engine",
+    "framework": "Javascript",
+    "projectType": "Solo Project",
+    "duration": "Nov 2024 - Dec 2024 (1 Month)",
+    "roles": [
+      "Programmer"
+    ],
+    "features": [
+      "3D Rendering",
+      "Flat Shading",
+      "Directional Light",
+      "Vector Math",
+      "Quaternion Rotation",
+      "Matrix Math",
+      "Polygon clipping"
+    ],
+    "desc": "<p>This is a fun little project of mine while learning canvas api.  This project demonstrates that with the ability of drawing any arbitrary triangle with any color, I will be able to produce similar result in any context.</p><p>First of all, I've also implemented my own Vector, Matrix, and Quaternion Math library in Javascript for 3D rendering.  The 3D renderer are capable of flat shading with direct lighting and can clip any polygon outside the view frustum to optimize rendering.  It can also automaticlly sort polygon based on the depth to do Painter's algorithm.  However because the smallest unit of drawing element is a triangle, some polygons may clip through each other under some circumstances.  To render a model, one must hardcode an array of vertex position and an array of indexed polygon and send the model data to the render list.</p><p>By add script in the head, anyone can use this renderer to create any 3D animations or Games on their webpages.  To demonstrate this, I've made a two player Game Demo using this renderer. Your goal in this game is to be the first one to catch 10 frogs to the green zone.  Getting hit by the frog on the back makes you lose the game.</p>",
+    "link": "",
+    "repo": "",
+    "folder": "OpenGL",
+    "videos": [],
+    "imageCount": 5
+  },
+  {
+    "name": "Gold Rush",
+    "inprogress": true,
+    "group": "Game",
+    "category": "FPS",
+    "framework": "Unreal",
+    "projectType": "Solo Project",
+    "duration": "Jan 2024 - ",
+    "roles": [
+      "Programmer",
+      "Game Designer",
+      "UI Designer",
+      "3D Animator",
+      "Project Manager"
+    ],
+    "features": [
+      "4 Player Coop",
+      "15 Guns",
+      "Modular Modification",
+      "22 Gun Modifications",
+      "28 Enemies",
+      "Behaviour Tree AI",
+      "Movment System",
+      "Weapon Upgrade",
+      "Item Crafting",
+      "Item Trading",
+      "Player Gesture",
+      "Text Chat",
+      "Voice Chat"
+    ],
+    "desc": "<p>Team up with three friends in a thrilling co-op shooter, defending your precious gold bars against endless waves of enemies. Coordinate your strategy through text, voice, or expressive gestures. Every fallen enemy leaves behind scrap, the essential resource for forging powerful new weapons or upgrading your arsenal. After each electrifying round, select from a trove of weapon modifications as your prize. The more scrap you collect, the richer your rewards. Each weapon can be enhanced with up to four modifications.</p><p>Back at your base, a variety of machines await, ready to help you upgrade, duplicate, deconstruct, reconstruct, or trade your modifications using scrap. Upgrading the modification to the max level will unlock its special ability. You can also infuse your weapons with gold, unlocking a special ability for each one.</p>",
+    "link": "",
+    "repo": "",
+    "folder": "gr",
+    "videos": [
+      "https://www.youtube.com/embed/JaGNZZjfEa8?si=ZEgdMacHdiWtNtEC"
+    ],
+    "imageCount": 5
+  }
 ]

@@ -6,6 +6,16 @@
   top: 0;
 }
 
+#home-link img{
+  width: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+#home-link{
+  line-height: 0;
+}
+
 .nav-bar a{
   color: var(--col-s);
 }

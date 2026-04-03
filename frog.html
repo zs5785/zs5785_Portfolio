@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frog Game</title>
+    <script src="3DRenderEngine.js"></script>
+    <script src="project.js"></script>
+</head>
+<body style="margin: 0;">
+    <span style="display: grid; grid-template-columns: 806px 1fr; gap: 10px;">
+        <div id="canvasContainer"></div>
+        <div>
+            <h1 id="gameTitle">Normal Frog Catching Game</h1>
+            <h2 id="desc">First to catch 10 frogs wins</h2>
+            <p>Red Player's Control: 
+                <ul>
+                    <li><b>W</b> and <b>S</b> to move up and down</li>
+                    <li><b>A</b> and <b>D</b> to turn left and right</li>
+                </ul> 
+            </p>
+            <p>Blue Player's Control: 
+                <ul>
+                    <li><b>I</b> and <b>K</b> to move up and down</li>
+                    <li><b>J</b> and <b>L</b> to turn left and right</li>
+                </ul>
+            </p>
+            <span style="display: block;">
+                Difficulty: 
+                <button onclick="toEasyMode()">Easy</button>
+                <button onclick="toNormalMode()">Normal</button>
+                <button onclick="toHardMode()">Hard</button>
+            </span>
+
+            Game Control: 
+            <button onclick="resetGame()">Restart</button>
+        </div>
+    </span>
+</body>
+</html>
