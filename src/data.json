@@ -26,8 +26,8 @@
       "QOI Decode"
     ],
     "desc": "<p>I created this Image Loader to gain a deeper understanding of how image files work and to utilize it for loading images in my own 3D Game Engine. To do this, I wrote this C++ header from scratch without relying on external dependencies to decode PNG, JPG, BMP, and QOI images into a 2D array. For example, I implemented the zlib decoding for PNG data myself.</p><p>By including the header in C++, this image loader can load most PNG, JPEG, and BMP images by inputting the file path.</p><p>To demonstrate, I created a demo program in Windows. After running it, you can open any image by clicking File->Open.</p>",
-    "link": "",
-    "repo": "",
+    "link": "https://drive.google.com/uc?export=download&id=1yAmylpH4lSL4coaCRKYRenRt09SjOhmJ",
+    "repo": "https://github.com/zs5785/IMGDemo",
     "folder": "IM",
     "videos": [
       "https://www.youtube.com/embed/oP2IqLwplXU?si=ow5hiCn5yxXBAKtI"
@@ -67,8 +67,8 @@
       "Skybox"
     ],
     "desc": "<p>The purpose of this project is to learn OpenGL and Game Engine development. With the help of LearnOpenGL, I have independently developed most of the features. The only external libraries I utilized are GLFW and GLAD for the basic building blocks of OpenGL, MikkTSpace for Tangent Space, and FreeType for Font Loading.</p><p>With this project, anyone can create a custom Game Engine by inheriting the Base Game Engine Class. The Game Engine works with entities, which can have additional component objects added to run additional functions such as movement.</p><p>I have utilized my ImageLoader for loading images. Additionally, I have developed a custom GLTF loader to load models, including animations and morphs. To play the loaded animations, you can use the animation Component.</p><p>This engine renders 3D models in Phong shading. This engine also implements Weighted Blended Order-Independent Transparency for both partial and full transparency rendering. For lighting, there are static lights such as directional lights, as well as dynamic lights like point lights and spot lights.</p><p>To demonstrate this project, I have created a demo that you can download and experiment with.</p>",
-    "link": "",
-    "repo": "",
+    "link": "https://drive.google.com/uc?export=download&id=1H-rm02qssaBOZj5M9ofvuqFg4aN3hqWi",
+    "repo": "https://github.com/zs5785/CppOpenGL",
     "folder": "OpenGL",
     "videos": [
       "https://www.youtube.com/embed/DdgE_1d9DYs?si=14pViJIVe-ueUTP_"
@@ -100,7 +100,7 @@
       "Character Upgrade"
     ],
     "desc": "<p>In this game, you play as a wizard who is stuck in a dungeon. Your task is to defeat an evil wizard who has trapped you. You can use your knowledge of magic to create unique spells to defeat the minions summoned by the evil wizard.</p><p>You can find or purchase spell components from item chests or shops. With spell components, you can create various spells. Every spell requires a transport component and a target component. The transport component determines the spell's type, such as projectile or ray. The target component determines how the spell will behave, such as targeting the mouse pointer or targeting enemies. Using the Triggering component, you can trigger the next spell on trigger events, such as on hit.</p><p>There are five levels, and each level has a boss. Defeating the boss opens a stairway to the next level and gives you three character upgrade options to choose from. You can choose one of the three options to permanently upgrade one aspect of your character.</p>",
-    "link": "",
+    "link": "https://drive.google.com/uc?export=download&id=18PnOxM7m_TNgoglXyNBKeo1nFYQAGwss",
     "repo": "",
     "folder": "wad",
     "videos": [
@@ -133,7 +133,7 @@
       "2D A* Pathing Finding"
     ],
     "desc": "<p>In this game, you play the role of a mage who is tasked with defeating the Lich that resides within a dungeon. However, the Lich has summoned minions to protect the dungeon. Therefore, you must use your spells to overcome any enemies that you encounter.</p><p>As a mage, you possess a variety of spells that you can cast. These spells are unique and have different trigger events. For instance, some spells will trigger the next spell when you hit a wall, while others may trigger the next spell when you defeat an enemy. By chaining spells together through these triggers, you can create powerful and devastating combos that will help you defeat any enemies you face.</p><p>You can level up and gain experience by defeating enemies. Every five levels, you can learn or upgrade a spell. Additionally, with each level increase, you can improve your attributes such as health or power.</p><p>I used this project to test out the Wave Function Collapse Algorithm for Eden8080. Also, I used this project to implement the spell trigger chaining mechanic.</p>",
-    "link": "",
+    "link": "https://drive.google.com/uc?export=download&id=1HLhVKjR_4gsFkgBzwpQGJuHvMwPC9r9h",
     "repo": "",
     "folder": "MA",
     "videos": [
@@ -181,7 +181,7 @@
       "Toon Shading"
     ],
     "desc": "<p>You play as a young wizard apprentice who dreams of becoming a Supreme Grand Master in wizardry. However, to take the exam, you need coins, which is why you decide to rent a shop to sell exotic items.</p><p>As a wizard, you can create spells and customize them using spell components. There are six types of spells, each with unique characteristics. Additionally, your spell can trigger the next spell if there's a trigger component on your spell.</p><p>Since you have rented the shop, it's important to note that you need to pay rent every week. Failure to do so will result in Game over. To assist you in selling items, you have the option to modify your shop by adding different types of furniture. Exotic items can be acquired by either venturing into a dungeon to find them or by crafting them yourself.</p>",
-    "link": "",
+    "link": "https://drive.google.com/uc?export=download&id=1nv6IQXLn4QRB_iNBk2YvpErSp4GPy2rb",
     "repo": "",
     "folder": "soc",
     "videos": [
@@ -224,7 +224,7 @@
       "Toon Shading"
     ],
     "desc": "<p>In this game, the player plays as a robot whose objective is to seek vengeance and eliminate anyone who stands in its way. You can carry up to four guns, which can be upgraded by adding various modifications to them. These guns are randomly generated with different weapon parts and projectiles, providing a unique experience for each one found. With 86 weapon modifications available, players can customize their guns to fit their playstyle.</p><p>With Wave Function Collapse Level Generation and over 40 unique enemies, including bosses, this game offers endless replayability through randomly generated levels and challenging foes.</p>",
-    "link": "",
+    "link": "https://drive.google.com/uc?export=download&id=1GnK3m0iYX-nm5NNbUQW3gBUttPTfPlLV",
     "repo": "",
     "folder": "Eden8080",
     "videos": [
@@ -252,12 +252,12 @@
       "Matrix Math",
       "Polygon clipping"
     ],
-    "desc": "<p>This is a fun little project of mine while learning canvas api.  This project demonstrates that with the ability of drawing any arbitrary triangle with any color, I will be able to produce similar result in any context.</p><p>First of all, I've also implemented my own Vector, Matrix, and Quaternion Math library in Javascript for 3D rendering.  The 3D renderer are capable of flat shading with direct lighting and can clip any polygon outside the view frustum to optimize rendering.  It can also automaticlly sort polygon based on the depth to do Painter's algorithm.  However because the smallest unit of drawing element is a triangle, some polygons may clip through each other under some circumstances.  To render a model, one must hardcode an array of vertex position and an array of indexed polygon and send the model data to the render list.</p><p>By add script in the head, anyone can use this renderer to create any 3D animations or Games on their webpages.  To demonstrate this, I've made a two player Game Demo using this renderer. Your goal in this game is to be the first one to catch 10 frogs to the green zone.  Getting hit by the frog on the back makes you lose the game.</p>",
-    "link": "",
-    "repo": "",
-    "folder": "OpenGL",
-    "videos": [],
-    "imageCount": 5
+    "desc": "<p>I created this project while learning how to use the Canvas API. I also wrote my own math library in JavaScript for vectors, matrices, and quaternions to handle 3D rendering. The renderer supports flat shading with direct lighting and clips polygons outside the view to make rendering faster. It sorts polygons by depth using the Painter's algorithm. Since triangles are the smallest unit it draws, sometimes polygons can overlap in unexpected ways. If you add the script to your page's head, you can use this renderer to make your own 3D animations or games.</p><p>To demonstrate its capabilities, I created a two-player game demo. In this game, your goal is to be the first to catch 10 frogs and bring them to the green zone. If you get hit by a frog from behind, you lose.</p>",
+    "link": "https://zs5785.github.io/frog/project.html",
+    "repo": "https://github.com/zs5785/zs5785.github.io",
+    "folder": "w3d",
+    "videos": ["https://www.youtube.com/embed/IBNIlAVBqos?si=Uv4uCzzCdZzqklLn"],
+    "imageCount": 3
   },
   {
     "name": "Gold Rush",

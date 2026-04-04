@@ -131,6 +131,13 @@
   position: relative;
 }
 
+.gallery-item{
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  object-position: center;
+}
+
 .index-btn-container{
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
@@ -171,6 +178,11 @@
   padding: 1rem;
   color: var(--col-text);
   background-color: rgba(0, 0, 0, 0.75);
+  box-sizing: border-box;
+}
+
+.gallery button:hover{
+  border: 1px solid white;
 }
 
 .next-btn{
@@ -209,6 +221,8 @@
 
 .p-links{
   grid-column: 1/-1;
+  gap: 1rem;
+  flex-wrap: inherit;
 }
 
 .contact{

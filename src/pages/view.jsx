@@ -35,13 +35,14 @@ function View({list}){
             <div className="p-details">
                 <div className="overview">
                     <div className="p-links pure-g">
-                        <button aria-label="Try Demo" className={"pure-button pure-button-primary" + (repo ? " pure-u-1-2" : " pure-u-1-1")}>
+                        {link &&
+                        <a href={link} target="_blank" title="Play Demo" aria-label="Play Demo" className={"pure-button pure-button-primary" + (repo ? " pure-u-1-2" : " pure-u-1-1")}>
                             <i className="fa-solid fa-play"></i>
-                        </button>
+                        </a>}
                         {repo && 
-                        <button aria-label="Github Repo" className="pure-button pure-button-primary pure-u-1-2">
+                        <a href={repo} target="_blank" title="Github Repo" aria-label="Github Repo" className="pure-button pure-button-primary pure-u-1-2">
                             <i className="fa-brands fa-github"></i>
-                        </button>}
+                        </a>}
                     </div>
                     <div>Features</div>
                     <div className="bubble-container">{features.map((ele)=>{

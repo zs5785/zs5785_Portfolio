@@ -18,7 +18,16 @@ function ImageGallery({videos, images, name}){
                     videos.map((ele, i)=>{
                         return (
                             <div className="vid-container" key={nanoid()}>
-                                <iframe hidden={index !== i} className="yt-video" src={ele} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                                <iframe 
+                                    key={nanoid()} 
+                                    hidden={index !== i} 
+                                    className="yt-video gallery-item" 
+                                    src={ele} 
+                                    title="YouTube video player" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    referrerPolicy="strict-origin-when-cross-origin" 
+                                    allowFullScreen
+                                />
                             </div>
                         );
                     })
@@ -26,7 +35,13 @@ function ImageGallery({videos, images, name}){
                 {
                     images.map((ele, i)=>{
                         return (
-                            <img key={nanoid()} hidden={index-videosNum !== i} className="pure-img" src={ele} alt={name+" No."+(index - videosNum + 1)+" Image"} />
+                            <img 
+                                key={nanoid()} 
+                                hidden={index-videosNum !== i} 
+                                className="pure-img gallery-item" 
+                                src={ele} 
+                                alt={name+" No."+(index - videosNum + 1)+" Image"} 
+                            />
                         );
                     })
                 }
